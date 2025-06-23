@@ -174,6 +174,14 @@ Advanced ML Models: Implement deep learning for pattern recognition
 Multi-channel Analysis: Expand to social media and marketing data
 A/B Testing Framework: Automated experimentation platform
 
+## 🔍 Data Verification
+
+To prove the system uses real algorithmic data generation (not hard-coded values):
+
+```bash
+# Run verification script
+python verify_data.py
+
 📞 Contact & Support
 Developer: Koyelia Ghosh
 Email: koyeliaghosh@hotmail.com
