@@ -194,5 +194,18 @@ Google Cloud Team for the Agent Development Kit
 Google Cloud Hackathon organizers
 Gemini AI for powering the intelligent agents
 
+## 🧪 Testing Instructions
 
+### Quick Start (2 minutes)
+1. **Live Demo:** https://koyeliaghosh.github.io/ADK-Hackathon-E-commerce-Analytics-Suite/adk_ecommerce_demo.html
+2. **Click "Run Complete Multi-Agent Analysis"** to see 4 ADK agents collaborate
+3. **Verify real data:** Run `python verify_data.py` to prove dynamic generation
+
+### Full Testing (10 minutes)
+```bash
+git clone https://github.com/Koyelia/ADK-Hackathon-E-commerce-Analytics-Suite.git
+cd ADK-Hackathon-E-commerce-Analytics-Suite
+pip install google-adk pandas numpy
+python main.py  # Test ADK setup
+python adk_hackathon_full_file.py  # Run complete system
 Built with ❤️ using Google Agent Development Kit for the Google Cloud Multi-Agent Hackathon
